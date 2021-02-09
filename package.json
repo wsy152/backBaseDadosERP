@@ -1,0 +1,20 @@
+{
+  "name": "erp_back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "author": "Edvaldo Santana",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.16",
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1",
+    "restify": "^8.5.1",
+    "restify-error": "^1.0.0",
+    "swagger-ui": "^3.41.1"
+  }
+}
